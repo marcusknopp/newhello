@@ -36,8 +36,8 @@ namespace AudioProgram
             AUDIO audio = new AUDIO(tone, time);
             audio.PlaySound();
 
-            AUDIO audio = AUDIO(tone/2, time);
-            audio.PlaySound();
+            AUDIO audio2 = new AUDIO(tone/2, time);
+            audio2.PlaySound();
 
             Console.WriteLine("Sound played successfully!");
         }
