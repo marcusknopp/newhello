@@ -3,6 +3,7 @@
 namespace AudioProgram
 {
     // Define the AUDIO class
+    //hello BRUCE
     class AUDIO
     {
         public int Tone { get; set; }
